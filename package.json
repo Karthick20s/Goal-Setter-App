@@ -1,26 +1,32 @@
 {
-  "name": "1-mern-tutorial",
+  "name": "goal",
   "version": "1.0.0",
-  "description": "Goal-setter-app",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
     "client": "npm start --prefix frontend",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
-  "author": "karthi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karthick20s/Goal-Setter-App.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karthick20s/Goal-Setter-App/issues"
+  },
+  "homepage": "https://github.com/Karthick20s/Goal-Setter-App#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
     "dotenv": "^16.0.0",
-    "express": "^4.17.2",
+    "express": "^4.17.3",
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.2.1"
-  },
-  "devDependencies": {
+    "mongoose": "^6.2.10",
     "nodemon": "^2.0.15"
   }
 }
